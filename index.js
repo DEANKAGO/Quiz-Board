@@ -1,5 +1,7 @@
 var form = document.getElementById("quiz-form");
 var btn = document.getElementById("btn");
+var score = 0;
+
 form.addEventListener("submit", function(e){
   e.preventDefault();
 
@@ -8,6 +10,22 @@ form.addEventListener("submit", function(e){
   var three = this.ans3.value
   var four = this.ans4.value
 
-  console.log(one, two, three, four)
+  score = 0
+
+  if (one == 'January'){
+    score++
+  }
+  if (two == '0830hrs'){
+    score++
+  }
+  if (three == '0830hrs'){
+    score++
+  }
+  if (four == 'DanielMoi'){
+    score++
+  }
+
+  var percent = score/4 * 100;
+  console.log(percent)
 
 });
