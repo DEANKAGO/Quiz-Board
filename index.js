@@ -26,6 +26,7 @@ form.addEventListener("submit", function(e){
   }
 
   var percent = score/4 * 100;
-  console.log(percent)
+  form.reset()
+  confirm('Your score is ' + percent + '%')
 
 });
