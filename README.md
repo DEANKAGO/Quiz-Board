@@ -2,7 +2,7 @@
 
 ##### By Martin Kago
 
-### It is a description of my resume.
+### It is a description of quiz board project.
 
 ## Table of Content
 
@@ -16,6 +16,7 @@
 ## Description
 
 <p>This is  a website that shows a quiz board that students can use to test their knowledge.</p>
+-design from figma: https://www.figma.com/file/xHlm6W8gR5JJAUMSiSiNrG/Untitled?node-id=1%3A2
 
 ## Installation
 
