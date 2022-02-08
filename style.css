@@ -74,4 +74,5 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #486549;
+  margin-top: 5px;
 }
